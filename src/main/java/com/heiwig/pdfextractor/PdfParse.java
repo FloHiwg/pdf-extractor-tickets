@@ -25,6 +25,11 @@ public class PdfParse {
             selectedFile = jfc.getSelectedFile();
 
             System.out.println(TrainTicketParser.getBookingNumberAndAmount(selectedFile));
+            /*try {
+                ReceiptParser.getShopNameOfReceipt(selectedFile);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }*/
         }
 
     }
